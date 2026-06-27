@@ -83,7 +83,6 @@ AutoProvision solves all of this through automated, event-driven integrations.
 - ✅ Complete audit trail (Audit Logs with timestamps)
 - ✅ Idempotency checks (cannot onboard/offboard same employee twice)
 - ✅ Single Responsibility Principle (validation → orchestration → notification)
-- ✅ Start date validation enforced at Google Form level (date picker restricted to future dates)
 
 ## Integration Concepts Demonstrated
 - Webhook and event-driven triggers
