@@ -54,6 +54,19 @@ AutoProvision solves all of this through automated, event-driven integrations.
 | Slack | Real-time alerts to #autoprovision-alerts |
 | Postman | API testing and webhook simulation |
 
+## Google Forms (Triggers)
+| Form | Purpose |
+|---|---|
+| AutoProvision - Employee Onboarding Request | HR submits new employee details to trigger onboarding workflow |
+| AutoProvision - Employee Offboarding Request | HR submits offboarding request to trigger offboarding workflow |
+
+## Data Stores (Google Sheets)
+| Sheet | Purpose |
+|---|---|
+| AutoProvision - Audit Logs | Records all successful onboarding and offboarding operations |
+| AutoProvision - Duplicate Logs | Logs all duplicate submission attempts |
+| AutoProvision - Failed Logs | Logs all failed/rejected requests with specific failure reasons |
+
 ## Key Features
 - ✅ Real-time Google Forms trigger for onboarding
 - ✅ Multi-layer input validation (mandatory fields + regex format checks)
